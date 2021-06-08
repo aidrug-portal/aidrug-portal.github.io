@@ -1,0 +1,127 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Workbench
+  product: Workbench Dev
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: 개발 환경 구성
+    output: web, pdf
+    folderitems:
+      - title: "Lifeary 6.2 설치 파일 다운로드"
+        url: /workbenchsetting1.html
+        output: web, pdf
+      - title: "Lifeary IDE 설치"
+        url: /workbenchsetting2.html
+        output: web, pdf
+      - title: "Developer Studion 실행"
+        url: /workbenchsetting3.html
+        output: web, pdf
+      - title: "JDK 1.7 설정"
+        url: /workbenchsetting4.html
+        output: web, pdf
+      - title: "tomcat 서버 설정"
+        url: /workbenchsetting5.html
+        output: web, pdf
+      - title: "ANT 1.9 설정"
+        url: /workbenchsetting6.html
+        output: web, pdf
+      - title: "SDK 설정"
+        url: /workbenchsetting7.html
+        output: web, pdf
+
+  - title: 워크벤치 편집기 개발
+    output: web, pdf
+    folderitems:
+      - title: "프로젝트 생성"
+        url: /workbench_editorguide1.html
+        output: web, pdf
+
+      - title: "자바 파일 설정"
+        url: /workbench_editorguide2.html
+        output: web, pdf
+
+      - title: "포틀릿 xml 파일 설정"
+        url: /workbench_editorguide3.html
+        output: web, pdf
+
+      - title: "visualizer_wrapper 파일 설정"
+        url: /workbench_editorguide4.html
+        output: web, pdf
+
+      - title: "text-editor 파일 설정"
+        url: /workbench_editorguide5.html
+        output: web, pdf
+
+  - title: 워크벤치 분석기 개발
+    output: web, pdf
+    folderitems:
+      - title: "프로젝트 생성"
+        url: /workbench_analyzerguide1.html
+        output: web, pdf
+
+      - title: "자바 파일 설정"
+        url: /workbench_analyzerguide2.html
+        output: web, pdf
+
+      - title: "포틀릿 xml 파일 설정"
+        url: /workbench_analyzerguide3.html
+        output: web, pdf
+
+      - title: "Wrapper 파일"
+        url: /workbench_analyzerguide4.html
+        output: web, pdf
+
+      - title: "가시화 파일 설정"
+        url: /workbench_analyzerguide5.html
+        output: web, pdf
+
+  - title: 워크벤치 이벤트 정의
+    output: web, pdf
+    folderitems:
+      - title: "HANDSHAKE"
+        url: /event_handshake.html
+        output: web, pdf
+
+      - title: "REGISTERED"
+        url: /event_registerd.html
+        output: web, pdf
+
+      - title: "REQUESTDATA"
+        url: /event_requestdata.html
+        output: web, pdf
+
+      - title: "RESPONSEDATA"
+        url: /even_responsedata.html
+        output: web, pdf
+
+      - title: "LOADDATA"
+        url: /event_loaddata.html
+        output: web, pdf
+
+      - title: "INITIALIZE"
+        url: /event_initialize.html
+        output: web, pdf
+
+      - title: "REFRESHOUTPUTVIEW"
+        url: /event_refreshoutputview.html
+        output: web, pdf
+
+      - title: "DATACHANGED"
+        url: /event_datachanged.html
+        output: web, pdf

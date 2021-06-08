@@ -1,0 +1,19 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  levels: one
+  folders:
+
+  - title: Document Lists
+    output: web
+    folderitems:
+    - title: Users
+      url: /users_intro.html
+      output: web
+    - title: Solver Developers
+      url: /solverdev_intro.html
+      output: web
+    - title: Analyzer Developers
+      url: /workbenchanalyzerguide1.html
+      output: web

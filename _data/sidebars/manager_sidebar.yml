@@ -1,0 +1,150 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+entries:
+- title: Manager
+  product: Management
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: 사이트 관리
+    output: web, pdf
+    folderitems:
+      - title: "EDISON 관리자 매뉴얼"
+        url: /sitemanager1.html
+        output: web, pdf
+
+      - title: "관리자 로그인"
+        url: /sitemanager2.html
+        output: web, pdf
+
+      - title: "페이지 관리"
+        url: /sitemanager3.html
+        output: web, pdf
+
+  - title: 페이지 관리
+    output: web, pdf
+    folderitems:
+      - title: "페이지 관리"
+        url: /pagemenu1.html
+        output: web, pdf
+      - title: "피이지 추가"
+        url: /pagemenu2.html
+        output: web, pdf
+
+  - title: 콘텐츠 관리
+    output: web, pdf
+    folderitems:
+      - title: "콘텐츠 관리 화면"
+        url: /contentmenu1.html
+        output: web, pdf
+      - title: "웹 콘텐츠 관리"
+        url: /contentmenu2.html
+        output: web, pdf
+      - title: "문서와 멀티미디어 관리"
+        url: /contentmenu3.html
+        output: web, pdf
+      - title: "블로그 관리"
+        url: /contentmenu4.html
+        output: web, pdf
+      - title: "메시지 보드 관리"
+        url: /contentmenu5.html
+        output: web, pdf
+      - title: "위키 관리"
+        url: /contentmenu6.html
+        output: web, pdf
+      - title: "동적 데이터 목록 관리"
+        url: /contentmenu7.html
+        output: web, pdf
+      - title: "책갈피 관리"
+        url: /contentmenu8.html
+        output: web, pdf
+      - title: "뉴스레터 관리"
+        url: /contentmenu9.html
+        output: web, pdf
+      - title: "여론조사 관리"
+        url: /contentmenu10.html
+        output: web, pdf
+      - title: "기술 자료 관리"
+        url: /contentmenu11.html
+        output: web, pdf
+      - title: "태그 관리"
+        url: /contentmenu12.html
+        output: web, pdf
+      - title: "카테고리 관리"
+        url: /contentmenu13.html
+        output: web, pdf
+      - title: "워크플로우 관리"
+        url: /contentmenu14.html
+        output: web, pdf
+      - title: "휴지통 관리"
+        url: /contentmenu15.html
+        output: web, pdf
+      - title: "Open Social 부속품 편집자 관리"
+        url: /contentmenu16.html
+        output: web, pdf
+      - title: "Challenge Admin 관리"
+        url: /contentmenu17.html
+        output: web, pdf
+      - title: "데이터 타입 워크플로우 관리"
+        url: /contentmenu18.html
+        output: web, pdf
+      - title: "SDR 게시판 관리"
+        url: /contentmenu19.html
+        output: web, pdf
+  - title: 사용자 관리
+    output: web, pdf
+    folderitems:
+      - title: "사용자 관리"
+        url: /usermanager1.html
+        output: web, pdf
+      - title: "사용자 관리 화면"
+        url: /usermanager2.html
+        output: web, pdf
+      - title: "사용자 관리"
+        url: /usermanager3.html
+        output: web, pdf
+      - title: "사용자 회원권 제거"
+        url: /usermanager4.html
+        output: web, pdf
+      - title: "사이트 조직 관리"
+        url: /usermanager5.html
+        output: web, pdf
+      - title: "사용자 그룹 관리"
+        url: /usermanager6.html
+        output: web, pdf
+      - title: "사이트 팀 관리"
+        url: /usermanager7.html
+        output: web, pdf
+  - title: 사이트 설정 관리
+    output: web, pdf
+    folderitems:
+      - title: "사이트 설정 관리"
+        url: /configurationmanager1.html
+        output: web, pdf
+      - title: "사이트 설정 메뉴"
+        url: /configurationmanager2.html
+        output: web, pdf
+      - title: "응용 디스플레이 템플릿 설정"
+        url: /configurationmanager3.html
+        output: web, pdf
+      - title: "사교 활동 설정"
+        url: /configurationmanager4.html
+        output: web, pdf
+      - title: "워크플로우 설정"
+        url: /configurationmanager5.html
+        output: web, pdf
+      - title: "모바일 장치 류 설정"
+        url: /configurationmanager6.html
+        output: web, pdf

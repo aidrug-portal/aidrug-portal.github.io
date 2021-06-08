@@ -1,0 +1,102 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: 빅데이터/인공지능 기반 신약개발 플랫폼
+  product: USER-AIDRUG
+  version: 1.0
+
+
+  folders:
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Introduction
+    output: web, pdf
+    folderitems:
+      - title: "Introduction"
+        url: /aidrug_intro.html
+        output: web, pdf
+      - title: "About"
+        url: /aidrug_about.html
+        output: web, pdf
+      - title: "Register & Login"
+        url: /aidrug_register.html
+        output: web, pdf
+
+  - title: Project
+    output: web, pdf
+    folderitems:
+      - title: "Project"
+        url: /aidrug_project.html
+        output: web, pdf
+ 
+  - title: Data
+    output: web, pdf
+    folderitems:
+      - title: "Compound Search"
+        url: /aidrug_compound_search.html
+        output: web, pdf
+
+      - title: "Data Profile"
+        url: /aidrug_data_profile.html
+        output: web, pdf
+
+      - title: "Data Search"
+        url: /aidrug_data_search.html
+        output: web, pdf
+
+  - title: AI
+    output: web, pdf
+    folderitems:
+      - title: "AI Model"
+        url: /aidrug_ai_model.html
+        output: web, pdf
+
+      - title: "AI Service"
+        url: /aidrug_ai_service.html
+        output: web, pdf
+
+  - title: Analysis
+    output: web, pdf
+    folderitems:
+      - title: "De Novo Drug Discovery"
+        url: /aidrug_denovo.html
+        output: web, pdf
+
+      - title: "AI based Virtual Screening"
+        url: /aidrug_virtual_screening.html
+        output: web, pdf
+
+      - title: "Easy AI Model Development"
+        url: /aidrug_easy_dev.html
+        output: web, pdf
+
+      - title: "Docking Simulation"
+        url: /aidrug_docking.html
+        output: web, pdf
+
+      - title: "Job Monitoring"
+        url: /aidrug_monitoring.html
+        output: web, pdf
+
+      - title: "AI based ADMET Analysis"
+        url: /aidrug_admet.html
+        output: web, pdf
+
+  - title: Forum
+    output: web, pdf
+    folderitems:
+      - title: "Forum"
+        url: /aidrug_forum.html
+        output: web, pdf
